@@ -14,18 +14,18 @@ public class Animals {
 	int numberoflegs;
 	int age;
 	
-	public void bark() {
+	public void talk() {
 		System.out.println("I am a: " +name);
 		System.out.println("and my skin color is: " +color);
 		System.out.println("Number of legs:"+ numberoflegs );
 		System.out.println("and my age is: " +age);
 		}
-	public void swim() {
-		System.out.println("not sure if i can swim");
+	public void eat() {
+		System.out.println("eating......");
 	}
-	public void run() {
+	public void sleep() {
 		
-	System.out.println("i am pretty fast than what you think...");
+	System.out.println("sleeeeeeping...");
 	}
 	
 
