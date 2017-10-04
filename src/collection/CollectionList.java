@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Collections;
 
-public class SampleCollection {
+public class CollectionList {
 	public String a;
 	public List<String> newone;
 	
@@ -29,7 +29,7 @@ public class SampleCollection {
 	
 		
 	}
-	public void iterate() {
+	public void iterateList() {
 		
 		Iterator<String> a = newone.iterator();//Using the Iterator method to print out the List
 		

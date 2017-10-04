@@ -3,10 +3,15 @@ package collection;
 public class One {
 
 	public static void main(String[] args) {
-		SampleCollection myarray = new SampleCollection();
+		CollectionList myarray = new CollectionList();
 		myarray.creatingArray();
-		myarray.sorting2();
-		myarray.iterate();
+		myarray.sorting1();
+		myarray.iterateList();
+		
+		CollectionMap mymap = new CollectionMap();
+		mymap.createMap();
+		mymap.iterateMap();
+		
 		
 
 	}
