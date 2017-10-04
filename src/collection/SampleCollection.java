@@ -3,6 +3,7 @@ package collection;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Collections;
 
 public class SampleCollection {
 	public String a;
@@ -14,7 +15,11 @@ public class SampleCollection {
 		mylist.add("Praveen");
 		mylist.add("Samreena");
 		mylist.add("Soody");
+		mylist.add("Array");
+		mylist.add("Base");
+		mylist.add("Color");
 		newone = mylist;
+		
 		
 		
 		//Iterator<String> a = mylist.iterator();
@@ -25,13 +30,24 @@ public class SampleCollection {
 		
 	}
 	public void iterate() {
-		Iterator<String> a = newone.iterator();
+		
+		Iterator<String> a = newone.iterator();//Using the Iterator method to print out the List
+		
 		while(a.hasNext()) {
 			String itr = a.next();
 			System.out.println(itr);
 		}
 		
 		
+	}
+	
+	public void sorting1() {
+		Collections.sort(newone);
+		
+	}
+	
+	public void sorting2() {
+		Collections.reverse(newone);
 	}
 
 
